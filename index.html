@@ -52,10 +52,12 @@
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut&nbsp;laoreet dolore.
             </p>
-            <button class="btn home-btn btn-reset">
-              FREE 30&nbsp;DAY TRIAL
-            </button>
-            <span class="home-secure"> SSL secured connection </span>
+            <div class="home-wrapper">
+              <button class="btn home-btn btn-reset">
+                FREE 30&nbsp;DAY TRIAL
+              </button>
+              <span class="home-secure"> SSL secured connection </span>
+            </div>
           </div>
         </div>
       </section>
@@ -297,14 +299,14 @@
           <h2 class="section-title contacts-title">Contacts</h2>
           <address class="contacts-adress">
             <ul class="contacts-list list-reset flex">
-              <li class="contacts-item flex">
+              <li class="contacts-item contacts-item-adress flex">
                 <strong class="contacts-item-caption"> Visit&nbsp;Us </strong>
                 <p class="contacts-item-text">
                   Duis autem vel eum iriure dolor in&nbsp;hendrerit
                   in&nbsp;vulputate velit.
                 </p>
               </li>
-              <li class="contacts-item flex">
+              <li class="contacts-item contacts-item-phone flex">
                 <strong class="contacts-item-caption"> Call&nbsp;Us </strong>
                 <a href="tel:+71234567890" class="contacts-item-link"
                   >+7 (987) 654-32-10</a
@@ -313,7 +315,7 @@
                   >+7 (123) 456-78-90</a
                 >
               </li>
-              <li class="contacts-item flex">
+              <li class="contacts-item contacts-item-mail flex">
                 <strong class="contacts-item-caption"> Email&nbsp;Us </strong>
                 <a href="mailto:example@example.com" class="contacts-item-link"
                   >example@example.com</a
@@ -333,7 +335,7 @@
       <div class="container flex footer-container">
         <div class="footer-left flex">
           <a href="#" class="footer-logo">
-            <img src="images/Logo.svg" alt="logo" class="footer-logo" />
+            <img src="images/Logo.svg" alt="logo" class="footer-logo-img" />
           </a>
           <small class="footer-copyright">
             Copyright &copy;2017. All Right Reserved
@@ -400,6 +402,12 @@
                 >
                   <path
                     d="M2.4 0.5H21.6C22.6747 0.5 23.5 1.31855 23.5 2.25V15.75C23.5 16.6814 22.6747 17.5 21.6 17.5H2.4C1.32525 17.5 0.5 16.6814 0.5 15.75V2.25C0.5 1.31855 1.32525 0.5 2.4 0.5Z"
+                    stroke="black"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22.8478 1.0625L12 9.93794L1.15222 1.0625"
                     stroke="black"
                     stroke-linecap="round"
                     stroke-linejoin="round"
